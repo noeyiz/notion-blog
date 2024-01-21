@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'goojiong\'s archive',
   domain: 'goojiong.vercel.app',
-  author: 'jiyeon koo',
+  author: 'Jiyeon Koo',
 
   // open graph metadata (optional)
   // description: 'Example Next.js Notion Starter Kit Site',
