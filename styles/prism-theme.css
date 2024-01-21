@@ -40,7 +40,7 @@
   color: rgba(55, 65, 81, 1);
 }
 .token.comment {
-  color: #5b9b4c;
+  color: #a8a8a8;
 }
 .dark-mode .token.cdata,
 .dark-mode .token.doctype,
@@ -60,7 +60,7 @@
 .token.property,
 .token.symbol,
 .token.tag {
-  color: #a4e2a1;
+  color: #e3a6e6;
 }
 .token.attr-name,
 .token.builtin,

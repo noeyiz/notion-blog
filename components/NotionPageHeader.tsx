@@ -81,7 +81,7 @@ export const NotionPageHeader: React.FC<{
           <ToggleThemeButton />
 
           <div>
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgoojiong.vercel.app&count_bg=%23CDCDCD&title_bg=%23F3C1C1&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgoojiong.vercel.app&count_bg=%23E1E1E1&title_bg=%23FFD8D8&icon=&icon_color=%23000000&title=+%F0%9F%A4%8D+hits&edge_flat=false"/>
           </div>
 
           {isSearchEnabled && <Search block={block} title={null} />}
