@@ -84,6 +84,12 @@
   border-radius: 20px;
   background-color: var(--bg-color);
   box-shadow: none;
+  transition: transform 250ms;
+}
+
+.notion-collection-card:hover {
+  background-color: initial;
+  transform: translateY(-5px);
 }
 
 .notion-collection-card-cover img {
@@ -97,12 +103,6 @@
 .notion-collection-card-cover {
   border-radius: 20px;
   border-bottom: 0 none;
-}
-
-.notion-collection-card:hover {
-  background-color: initial;
-  transform: translateY(-8px);
-  transition: transform 0.3s ease;
 }
 
 .notion-collection-card-body {
