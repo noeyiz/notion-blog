@@ -38,10 +38,11 @@ export default siteConfig({
   // example:
   //
   // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
+  //   '/About Me': '23d2c9165ad94e2aa0ffe85b0b3dc4fa'
+  // },
   pageUrlOverrides: null,
+
+  isSearchEnabled: false,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
@@ -49,7 +50,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
+      title: 'About Me',
       pageId: '23d2c9165ad94e2aa0ffe85b0b3dc4fa'
     },
   ]
