@@ -87,6 +87,8 @@ export const PageHead: React.FC<
 
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
+      <meta name="google-site-verification" content="Kt3h-71H6iNCqWRJoyVRSsAj37G2a6H6rQfWlr6xGYM" />
+      <meta name="naver-site-verification" content="2658c34fe2699b0fa5a1165b75b4323ba0f3c6e9" />
       <title>{title}</title>
     </Head>
   )
