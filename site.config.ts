@@ -27,7 +27,7 @@ export default siteConfig({
 
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: 'noeyiz/notion-blog',
-  
+
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
 
@@ -40,9 +40,6 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/About Me': '23d2c9165ad94e2aa0ffe85b0b3dc4fa'
-  // },
   pageUrlOverrides: null,
 
   isSearchEnabled: false,
@@ -51,10 +48,10 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   // navigationStyle: 'default'
   navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About Me',
-      pageId: '23d2c9165ad94e2aa0ffe85b0b3dc4fa'
-    },
-  ]
+  // navigationLinks: [
+  //   {
+  //     title: 'About Me',
+  //     pageId: '1c4912f6ea8e44a3bcebf4fac5f296a0'
+  //   },
+  // ]
 })

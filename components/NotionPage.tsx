@@ -20,7 +20,6 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
-import { GitHubShareButton } from './GitHubShareButton'
 import { ReactUtterances } from './ReactUtterances'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
@@ -299,8 +298,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
-      <GitHubShareButton />
     </>
   )
 }
