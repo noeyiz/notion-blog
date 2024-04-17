@@ -22,6 +22,12 @@
   line-height: 1.65;
 }
 
+.notion-page-link,
+.notion-block-e9f342b995ce43a68b0b6444c2e7a629 {
+  justify-content: center;
+  text-align: center;
+}
+
 .index-page {
   --notion-max-width: 1100px;
 }
