@@ -245,19 +245,19 @@ export const NotionPage: React.FC<types.PageProps> = ({
   let comments: React.ReactNode = null
 
   // only display comments and page actions on blog post pages
-  if (isBlogPost) {
-    if (config.utterancesGitHubRepo) {
-      comments = (
-        <ReactUtterances
-          repo={config.utterancesGitHubRepo}
-          issueMap='issue-term'
-          issueTerm='title'
-          label='✨💬✨'
-          theme={isDarkMode ? 'photon-dark' : 'github-light'}
-        />
-      )
-    }
-  }
+  // if (isBlogPost) {
+  //   if (config.utterancesGitHubRepo) {
+  //     comments = (
+  //       <ReactUtterances
+  //         repo={config.utterancesGitHubRepo}
+  //         issueMap='issue-term'
+  //         issueTerm='title'
+  //         label='✨💬✨'
+  //         theme={isDarkMode ? 'photon-dark' : 'github-light'}
+  //       />
+  //     )
+  //   }
+  // }
 
   return (
     <>

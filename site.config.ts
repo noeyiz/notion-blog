@@ -39,8 +39,11 @@ export default siteConfig({
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
-  //
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/about-me': '8cad664e55714c57aab5687e55cf7542',
+    '/portfolio': 'a916add0aa7d4505a13fff0df7705ad8',
+  },
+  // pageUrlOverrides: null,
 
   isSearchEnabled: false,
 
@@ -48,10 +51,14 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   // navigationStyle: 'default'
   navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About Me',
-  //     pageId: '1c4912f6ea8e44a3bcebf4fac5f296a0'
-  //   },
-  // ]
+  navigationLinks: [
+    {
+      title: 'About Me',
+      pageId: '8cad664e55714c57aab5687e55cf7542'
+    },
+    {
+      title: 'Portfolio',
+      pageId: 'a916add0aa7d4505a13fff0df7705ad8'
+    },
+  ]
 })

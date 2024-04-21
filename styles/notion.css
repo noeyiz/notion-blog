@@ -63,7 +63,7 @@
 /* 갤러리뷰 */
 .notion-gallery-grid {
   grid-template-columns: repeat(auto-fill, 200px);
-  grid-gap: 6vmin;
+  grid-gap: 5vmin;
   gap: 2.5vmin;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   white-space: unset;
 }
