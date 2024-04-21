@@ -20,7 +20,7 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
-import { ReactUtterances } from './ReactUtterances'
+// import { ReactUtterances } from './ReactUtterances'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -242,7 +242,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
 
-  let comments: React.ReactNode = null
+  const comments: React.ReactNode = null
 
   // only display comments and page actions on blog post pages
   // if (isBlogPost) {
