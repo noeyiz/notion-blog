@@ -40,8 +40,7 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   pageUrlOverrides: {
-    '/about-me': '8cad664e55714c57aab5687e55cf7542',
-    '/portfolio': 'a916add0aa7d4505a13fff0df7705ad8',
+    '/about-me': '4476b40c487e42f7a774be2ab5015238',
   },
   // pageUrlOverrides: null,
 
@@ -54,11 +53,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About Me',
-      pageId: '8cad664e55714c57aab5687e55cf7542'
-    },
-    {
-      title: 'Portfolio',
-      pageId: 'a916add0aa7d4505a13fff0df7705ad8'
+      pageId: '4476b40c487e42f7a774be2ab5015238'
     },
   ]
 })
